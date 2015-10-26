@@ -1,0 +1,6 @@
+public class CasinoWar{
+     public static void main(String[] args){
+          Deck deck = new Deck();
+          int[][][] d = deck.deck();
+     }
+}

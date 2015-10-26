@@ -1,0 +1,7 @@
+public class CasinoWarGame{
+     public void Game(){
+          CasinoWarCash cws = new CasinoWarCash();
+          CasinoWarPlay cwp = new CasinoWarPlay();
+          Deck deck = new deck();
+     }
+}

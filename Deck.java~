@@ -1,0 +1,23 @@
+public class Deck{
+     /*3d array suit, color, rank
+      * [0][][] - Spades
+      * [1][][] - Clubs
+      * [2][][] - Heart
+      * [3][][] - Diamond
+      * 
+      * [][0][] - Black
+      * [][1][] - Red
+      * 
+      * [][][x] - x-> 1(Ace) to 13 (King) */
+     public int[][][] deck(){
+          int[][][] deck = new int[4][2][13];
+          
+          for(int i = 0; i < 4; i++){
+               for(int j = 0; j < 2; j++){
+                    for(int k = 1; k < 14; k++){
+                         deck[i][j][k] = i + j + k;
+                    }
+               }
+          }
+     }
+}

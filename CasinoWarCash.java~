@@ -1,0 +1,18 @@
+import java.util.*;
+public class CasinoWarCash{
+     public int initAmount(int amount){
+          return amount;
+     }
+     
+     public int bet(int amount){
+          return amount;
+     }
+     
+     public int win(int originalAmount, int bettingAmount){
+          return originalAmount + bettingAmount;
+     }
+     
+     public int lose(int originalAmount, int bettingAmount){
+          return originalAmount - bettingAmount;
+     }
+}
